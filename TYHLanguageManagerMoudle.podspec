@@ -29,8 +29,6 @@ Pod::Spec.new do |spec|
 
 
   spec.source_files  =  "TYHLanguageManagerMoudle/Classes/**/*.{.swift}
-
-  # spec.public_header_files = "Classes/**/*.h"
   
   spec.dependency 'CTMediator'
 
