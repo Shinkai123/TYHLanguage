@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"
   spec.summary      = "A TYHLanguageManagerMoudle."
 
-  spec.description  = ‘A object of TYHLanguageManagerMoudle.’
+  spec.description  = 'A object of TYHLanguageManagerMoudle.'
 
   spec.homepage     = "https://github.com/Shinkai123/TYHLanguage"
 
