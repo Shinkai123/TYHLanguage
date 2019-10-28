@@ -6,5 +6,6 @@ target 'TYHLanguageManager' do
   use_frameworks!
 
   # Pods for TYHLanguageManager
+  pod ’CTMediator‘
 
 end
