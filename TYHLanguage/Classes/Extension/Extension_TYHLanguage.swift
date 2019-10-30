@@ -8,7 +8,7 @@
 
 import CTMediator
 //模块名称
-let TYHLanguageMoudleName = "TYHLanguageManager"
+let TYHLanguageMoudleName = "TYHLanguage"
 
 //标识
 let TYHLanguageName = "TYHLanguage"

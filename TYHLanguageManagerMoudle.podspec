@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |spec|
-  spec.name         = "TYHLanguageManagerMoudle"
+  spec.name         = "TYHLanguage"
   spec.version      = "0.0.6"
   spec.summary      = "A TYHLanguageManagerMoudle."
 
@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "9.0"
   spec.source       = { :git => "https://github.com/Shinkai123/TYHLanguage.git", :tag => spec.version.to_s }
 
-  spec.source_files  = "TYHLanguageManagerMoudle/Classes/**/*{.swift}"
+  spec.source_files  = "TYHLanguage/Classes/**/*{.swift}"
 
   spec.dependency 'CTMediator'
 

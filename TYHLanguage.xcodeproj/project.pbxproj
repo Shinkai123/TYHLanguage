@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2BFFE30C2363E11800010BA9 /* TYHLanguageManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYHLanguageManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BFFE30C2363E11800010BA9 /* TYHLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYHLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFFE30F2363E11900010BA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BFFE3132363E11900010BA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2BFFE3162363E11900010BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		2BFFE3032363E11800010BA9 = {
 			isa = PBXGroup;
 			children = (
-				2BFFE3232363E52100010BA9 /* TYHLanguageManagerMoudle */,
+				2BFFE3232363E52100010BA9 /* TYHLanguage */,
 				2BFFE3242363E52100010BA9 /* TYHLanguageManagerMoudle.podspec */,
 				2BFFE30E2363E11900010BA9 /* TYHLanguageManager */,
 				2BFFE30D2363E11800010BA9 /* Products */,
@@ -70,7 +70,7 @@
 		2BFFE30D2363E11800010BA9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2BFFE30C2363E11800010BA9 /* TYHLanguageManager.app */,
+				2BFFE30C2363E11800010BA9 /* TYHLanguage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,13 +89,13 @@
 			path = TYHLanguageManager;
 			sourceTree = "<group>";
 		};
-		2BFFE3232363E52100010BA9 /* TYHLanguageManagerMoudle */ = {
+		2BFFE3232363E52100010BA9 /* TYHLanguage */ = {
 			isa = PBXGroup;
 			children = (
 				2BFFE32B2363F91F00010BA9 /* Classes */,
 				2BFFE32A2363F90600010BA9 /* Languages */,
 			);
-			path = TYHLanguageManagerMoudle;
+			path = TYHLanguage;
 			sourceTree = "<group>";
 		};
 		2BFFE32A2363F90600010BA9 /* Languages */ = {
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2BFFE30B2363E11800010BA9 /* TYHLanguageManager */ = {
+		2BFFE30B2363E11800010BA9 /* TYHLanguage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BFFE3202363E11C00010BA9 /* Build configuration list for PBXNativeTarget "TYHLanguageManager" */;
+			buildConfigurationList = 2BFFE3202363E11C00010BA9 /* Build configuration list for PBXNativeTarget "TYHLanguage" */;
 			buildPhases = (
 				CA65B8B50E53237B4822755A /* [CP] Check Pods Manifest.lock */,
 				2BFFE3082363E11800010BA9 /* Sources */,
@@ -166,9 +166,9 @@
 			);
 			dependencies = (
 			);
-			name = TYHLanguageManager;
+			name = TYHLanguage;
 			productName = TYHLanguageManager;
-			productReference = 2BFFE30C2363E11800010BA9 /* TYHLanguageManager.app */;
+			productReference = 2BFFE30C2363E11800010BA9 /* TYHLanguage.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2BFFE3072363E11800010BA9 /* Build configuration list for PBXProject "TYHLanguageManager" */;
+			buildConfigurationList = 2BFFE3072363E11800010BA9 /* Build configuration list for PBXProject "TYHLanguage" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -200,7 +200,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2BFFE30B2363E11800010BA9 /* TYHLanguageManager */,
+				2BFFE30B2363E11800010BA9 /* TYHLanguage */,
 			);
 		};
 /* End PBXProject section */
@@ -468,7 +468,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BFFE3072363E11800010BA9 /* Build configuration list for PBXProject "TYHLanguageManager" */ = {
+		2BFFE3072363E11800010BA9 /* Build configuration list for PBXProject "TYHLanguage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BFFE31E2363E11C00010BA9 /* Debug */,
@@ -477,7 +477,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BFFE3202363E11C00010BA9 /* Build configuration list for PBXNativeTarget "TYHLanguageManager" */ = {
+		2BFFE3202363E11C00010BA9 /* Build configuration list for PBXNativeTarget "TYHLanguage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BFFE3212363E11C00010BA9 /* Debug */,

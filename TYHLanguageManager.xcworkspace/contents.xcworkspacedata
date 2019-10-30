@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:TYHLanguageManager.xcodeproj">
+      location = "group:/Users/yaohuatan/TYHLanguageManager/TYHLanguageManager.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
