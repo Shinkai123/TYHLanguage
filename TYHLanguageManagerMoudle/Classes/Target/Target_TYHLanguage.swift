@@ -10,6 +10,6 @@ import UIKit
 
 @objc class Target_TYHLanguage: NSObject {
     @objc func Action_localizedStringForKey(_ params: Dictionary<String, Any>) -> String? {
-        return TYHLocalizeHelper.share().getString(params)
+        return TYHLocalizeHelper.getString(params)
     }
 }

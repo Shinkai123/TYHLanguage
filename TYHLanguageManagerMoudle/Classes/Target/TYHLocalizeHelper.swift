@@ -16,12 +16,12 @@ public class TYHLocalizeHelper: NSObject {
     }
     
     //MARK:-获取图片
-    public func getString(_ params: Dictionary<String, Any>) -> String? {
+    public class func getString(_ params: Dictionary<String, Any>) -> String? {
         
         let key = params["key"] as? String ?? ""
         let language = params["language"] as? String ?? "en"
         let table = params["table"] as? String ?? ""
-        let bundle = Bundle(for: type(of: self))
+        let bundle = Bundle(for: type(of: self) as! AnyClass)
         guard let path = bundle.path(forResource: language, ofType: "lproj") else {
             return nil
         }
