@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "TYHLanguageManagerMoudle"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "A TYHLanguageManagerMoudle."
 
 
