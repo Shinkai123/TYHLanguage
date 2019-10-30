@@ -12,7 +12,7 @@
 		2BFFE3172363E11900010BA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFE3152363E11900010BA9 /* Main.storyboard */; };
 		2BFFE3192363E11C00010BA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFE3182363E11C00010BA9 /* Assets.xcassets */; };
 		2BFFE31C2363E11C00010BA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFE31A2363E11C00010BA9 /* LaunchScreen.storyboard */; };
-		2BFFE3252363E52100010BA9 /* TYHLanguageManagerMoudle.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFE3242363E52100010BA9 /* TYHLanguageManagerMoudle.podspec */; };
+		2BFFE3252363E52100010BA9 /* TYHLanguage.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFE3242363E52100010BA9 /* TYHLanguage.podspec */; };
 		2BFFE32F2363F9A200010BA9 /* Extension_TYHLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFE32E2363F9A200010BA9 /* Extension_TYHLanguage.swift */; };
 		2BFFE3322363F9CD00010BA9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFE3342363F9CD00010BA9 /* Localizable.strings */; };
 		2BFFE33723667F6000010BA9 /* Target_TYHLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFE33623667F6000010BA9 /* Target_TYHLanguage.swift */; };
@@ -29,7 +29,7 @@
 		2BFFE3182363E11C00010BA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BFFE31B2363E11C00010BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BFFE31D2363E11C00010BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BFFE3242363E52100010BA9 /* TYHLanguageManagerMoudle.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TYHLanguageManagerMoudle.podspec; sourceTree = "<group>"; };
+		2BFFE3242363E52100010BA9 /* TYHLanguage.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TYHLanguage.podspec; sourceTree = "<group>"; };
 		2BFFE3262363E59F00010BA9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		2BFFE3272363E5A000010BA9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		2BFFE32E2363F9A200010BA9 /* Extension_TYHLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_TYHLanguage.swift; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				2BFFE3232363E52100010BA9 /* TYHLanguage */,
-				2BFFE3242363E52100010BA9 /* TYHLanguageManagerMoudle.podspec */,
+				2BFFE3242363E52100010BA9 /* TYHLanguage.podspec */,
 				2BFFE30E2363E11900010BA9 /* TYHLanguageManager */,
 				2BFFE30D2363E11800010BA9 /* Products */,
 				D1EDB86A6BC1FA408CAA242D /* Pods */,
@@ -211,7 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BFFE3322363F9CD00010BA9 /* Localizable.strings in Resources */,
-				2BFFE3252363E52100010BA9 /* TYHLanguageManagerMoudle.podspec in Resources */,
+				2BFFE3252363E52100010BA9 /* TYHLanguage.podspec in Resources */,
 				2BFFE31C2363E11C00010BA9 /* LaunchScreen.storyboard in Resources */,
 				2BFFE3192363E11C00010BA9 /* Assets.xcassets in Resources */,
 				2BFFE3172363E11900010BA9 /* Main.storyboard in Resources */,
