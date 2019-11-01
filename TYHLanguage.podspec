@@ -25,6 +25,9 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/Shinkai123/TYHLanguage.git", :tag => spec.version.to_s }
 
   spec.source_files  = "TYHLanguage/Classes/**/*{.swift}"
+  spec.resource_bundles = {
+  'TYHLanguage' => ['TYHLanguage/Languages/*.lproj/*']
+    }
 
   spec.dependency 'CTMediator'
 
